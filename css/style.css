@@ -1,0 +1,35 @@
+*, html {
+	font-family: courier;
+}
+
+body {
+	margin: 0;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+footer {
+	clear: both;
+}
+
+.editing .content {
+	color: #FF0000;
+}
+
+.container {
+	float: left;
+}
+.content {
+	width: 80%;
+}
+.actions {
+	width: 15%;
+}
+
+.brand-logo {
+	width: 400px;
+	height: 360px;
+	background:#D0D0D0;
+	box-shadow: 0px 0px 3px #000000;
+	float: left;
+}

@@ -1,0 +1,8 @@
+<div ng-class="{'editing':editing}">
+	<div class="container content" ng-transclude contenteditable="{{editing}}"></div>
+	<div class="container actions">
+		<button ng-click="toggleMode();">
+			{{btnText}}
+		</button>
+	</div>
+</div>
